@@ -9,6 +9,6 @@ reverse = (palavra) => {
     return palavraInvertida;
   }
   
-console.log(reverse("Eta lasquera"))
+console.log(reverse("Matheus"))
   
   

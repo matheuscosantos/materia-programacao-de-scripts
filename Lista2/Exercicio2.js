@@ -15,4 +15,6 @@ json = [{
     }
 ]
 
-console.log(json);
+var teste = json.forEach(element => {
+    console.log(element.);
+});

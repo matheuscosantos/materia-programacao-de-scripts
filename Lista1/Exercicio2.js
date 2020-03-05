@@ -5,4 +5,4 @@ reverse2 = (palavra) => {
     return palavraInvertida;
   }
   
-  console.log(reverse2("Eta lasquera"));
+  console.log(reverse2("Matheus"));
