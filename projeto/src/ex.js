@@ -26,8 +26,12 @@ app.post('/op/:a/:b',(req,res)=>{
     let b = req.params.b;
     a=parseInt(a);
     b=parseInt(b);
-    res.send(a+b+'');
+    res.send(a*b+'');
 })
+
+app.use(express.static("../public"));
+
+app.use("/msg", express.static("../public/a.txt"));
 
 app.all('/cad/cli', (req,res) => {res.send('rota cad/cli');})
 
