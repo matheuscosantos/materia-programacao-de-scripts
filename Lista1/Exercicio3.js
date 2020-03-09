@@ -1,7 +1,7 @@
-var inverteString = function(frase) {
+var inverteString = function (frase) {
     return frase.split('')
-                .reverse()
-                .join('');
+        .reverse()
+        .join('');
 }
 
 console.log(inverteString('Matheus'));

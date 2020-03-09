@@ -1,14 +1,14 @@
 // Funções Arrow não possuem this em seu escopo
 
 const aluno = {
-    nome:'Paulo',
-    print: function(){
+    nome: 'Paulo',
+    print: function () {
         console.log(this.nome);
     }
 }
 
 const professor = {
-    nome:'José',
+    nome: 'José',
     print: () => {
         console.log(this.nome);
     }
@@ -16,4 +16,3 @@ const professor = {
 
 aluno.print();
 professor.print("Matheus");
-
