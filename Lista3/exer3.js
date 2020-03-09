@@ -1,7 +1,5 @@
-function aleatorio(min, max) {
-  return new Promise((x, y) => {
-    let nro = Math.floor(Math.random() * (max - min) + min);
-  });
+async function aleatorio(min, max) {
+  return Math.floor(Math.random() * (max - min) + min);
 }
 
 async function exibir() {

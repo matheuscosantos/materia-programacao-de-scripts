@@ -1,5 +1,10 @@
-let p = new Promise((x,y) => {
-  funcaoA();
+let p = new Promise((resolve, reject) => {
+  let a = 1 + 2;
+  if(a == 2){
+    resolve('Success')
+  }else{
+    reject('Failed')
+  }
 });
 
 p.then(
@@ -8,4 +13,4 @@ p.then(
   () => console.log('Boa tarde')
 ).finally(
   () => console.log('Boa noite')
-);
+);  

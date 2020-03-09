@@ -1,0 +1,13 @@
+console.log(typeof 1);
+console.log(typeof 1.5);
+console.log(typeof NaN);
+console.log(typeof -Infinity);
+console.log(typeof (2 ** 53));
+console.log(typeof('oi'));
+console.log(typeof true);
+console.log(typeof {});
+console.log(typeof function(){});
+console.log(typeof []);
+console.log(typeof undefined);
+console.log(typeof null);
+console.log(typeof Symbol('oi'));
